@@ -1,0 +1,15 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Hamburger from "../components/Hamburger.astro";
+---
+
+<nav>
+  <header>
+    <Hamburger />
+    <div class="nav-links">
+      <Navigation address="/" name="Home" />
+      <Navigation address="/about" name="About" />
+      <Navigation address="/blog" name="Blog" />
+    </div>
+  </header>
+</nav>
